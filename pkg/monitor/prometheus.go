@@ -23,11 +23,11 @@ var (
 	)
 )
 
-func init() {
-	// Register the custom metrics with Prometheus
-	prometheus.MustRegister(Hysteria2TrafficUsage)
-	prometheus.MustRegister(Hysteria2OnlineUser)
-}
+//func init() {
+//	// Register the custom metrics with Prometheus
+//	prometheus.MustRegister(Hysteria2TrafficUsage)
+//	prometheus.MustRegister(Hysteria2OnlineUser)
+//}
 
 // Update the traffic usage for a user
 func UpdateTrafficUsage(user string, tx, rx int) {

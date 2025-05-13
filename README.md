@@ -19,3 +19,6 @@ SECRET:
 # Required: This value cannot be empty.
 # Description: A secret key used for authentication or encryption purposes. Ensure this is properly set for secure operations.
 ```
+Monitoring Metrics:
+•	hysteria2_traffic_usage: Usage
+•	hysteria2_online_user: Online users
